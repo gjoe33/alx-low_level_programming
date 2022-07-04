@@ -1,11 +1,13 @@
 #include <stdlib.h>
-/**
- * program that prints programing is like a puzzle
- */
 
 /**
- * main - program starts here
+ *main - program that prints progrmming is like building a puzzle
  * description - program to print programming is like building a puzzle
+ */
+
+/*
+ *main - program starting point
+ *description - program to print programming is like building a puzzle
  */
 
 int main(void)
