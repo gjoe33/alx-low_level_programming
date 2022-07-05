@@ -1,11 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- *main the value of n will change everytime we run it
- */
+ *main- this is the main function to detamine value of n
+*/
 
 /*
  *main posive, and negative numbers of value of n to the final product
+ description-the starting point of the program
+ */
+/*
+ * main positive number is >0 and negative when the number is <0
  */
 int main(void)
 {
