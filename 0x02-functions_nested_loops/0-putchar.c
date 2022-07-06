@@ -1,18 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
 
-int 0 - putchar.c(int n)
-{
-	int(print _putchar);
-	return (0);
-}
 /**
- * main - entry point
- * description - program to print _putchar
- *return will be 0
+ * _putchar - write the charcter c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error -1 is returned, and errno is set appropriately.
  */
-
-int main(void)
+int _putcar(char c)
 {
-	putchar("char* put");
-	return (0);
+	return (write(1, &c, 1));
 }
